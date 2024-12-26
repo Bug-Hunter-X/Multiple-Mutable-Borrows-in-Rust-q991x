@@ -1,0 +1,1 @@
+This example demonstrates a common error in Rust: attempting to create multiple mutable borrows of the same variable.  Rust's borrow checker prevents this to ensure data integrity and avoid data races.  The solution shows how to refactor the code to resolve the issue.
